@@ -1,2 +1,3 @@
 puts get_ns.class ### The class method can tell us what kind of value a variable contains
 str1.delete! "es" ### delete some characters 
+array_now = get_ns.split ### convert string to array  
