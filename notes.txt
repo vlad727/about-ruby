@@ -4,4 +4,4 @@ array_now = get_ns.split ### convert string to array
 array_now.slice!(0..2) ### delete first 3 elemetns from array 
 puts %x{kubectl apply -f netwokrattachment.yaml -n ns_without}  ### run command with %x
 var = ARGV puts var.sort ### sort args   
-gets == string by default ### age_in_mounths = age.to_i * 12
+gets == string by default ### age_in_mounths = age.to_i * 12 to integer and puts"Yourageis"+age_months.to_s to string ###
