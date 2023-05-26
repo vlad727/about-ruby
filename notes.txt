@@ -8,3 +8,4 @@ gets == string by default ### age_in_mounths = age.to_i * 12 to integer and puts
 puts "Your age in months #{age * 12}"   ### example how to do multiplication 
 content_array_now = content.split(" ") ### from string to array 
 pp content_array_now_int.map(&:to_i).sort ### convert content array from string to integer and sort  
+for i in (10..20).step(3) ### metod step example
