@@ -10,3 +10,4 @@ content_array_now = content.split(" ") ### from string to array
 pp content_array_now_int.map(&:to_i).sort ### convert content array from string to integer and sort  
 for i in (10..20).step(3) ### metod step example
 puts "Значение в милях #{number_in_km / 1.4}" ### интерполяция в руби
+puts number_in_mile.round(2) ### указать количество цифр после запятой(точки)
