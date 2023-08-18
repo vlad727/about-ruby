@@ -14,3 +14,5 @@ puts number_in_mile.round(2) ### указать количество цифр п
 today = `date` ### Backticks (also called “backquotes”) runs the command in a subshell and returns the standard output from that command. 
 run shell in ruby http://tech.natemurray.com/2007/03/ruby-shell-commands.html  ### stout stdin
 puts ARGV ### get arg 
+puts $0 ### all args
+puts $* ### script name
