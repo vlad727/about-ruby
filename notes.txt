@@ -12,3 +12,4 @@ for i in (10..20).step(3) ### metod step example
 puts "Значение в милях #{number_in_km / 1.4}" ### интерполяция в руби
 puts number_in_mile.round(2) ### указать количество цифр после запятой(точки)
 today = `date` ### Backticks (also called “backquotes”) runs the command in a subshell and returns the standard output from that command. 
+run shell in ruby http://tech.natemurray.com/2007/03/ruby-shell-commands.html  ### stout stdin
